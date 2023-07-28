@@ -49,5 +49,5 @@ jobs:
         with:
           app-name: 'helloWorld222'
           slot-name: 'Production'
-          publish-profile: ${{ secrets.AZUREAPPSERVICE_PUBLISHPROFILE_943C8040A4CE47AEBA7209BA55541E80 }}
+          publish-profile: ${{ secrets.HELLO_SECRET }}
           package: '*.war'
